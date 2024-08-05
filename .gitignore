@@ -1,0 +1,3 @@
+backend/node_modules
+frontend/s-plus/node_modules
+backend/.env

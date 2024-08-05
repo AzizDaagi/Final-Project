@@ -1,0 +1,118 @@
+/* General container for the page */
+.property-container {
+  width: 700px;
+  margin: auto;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: transparent;
+  backdrop-filter: blur(30px);
+  color: #d7fbf6;
+  font-size: larger;
+}
+
+/* Header section with property title and price */
+.property-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.property-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #b4e434;
+}
+
+.property-price {
+  font-size: 1.5rem;
+  color: #e3e3e3;
+  
+}
+
+/* Section for displaying property images */
+.property-images {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.property-images img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/* Description section */
+.property-description {
+  margin-bottom: 20px;
+  
+}
+
+.property-description h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #b4e434;
+}
+
+.property-description p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #fff;
+
+}
+
+.property-description h4 {
+  font-size: 1.2rem;
+  color: #e3e2e2;
+}
+
+/* Booking form section */
+/* .booking-form {
+  margin-bottom: 20px;
+}
+
+.booking-form div {
+  margin-bottom: 15px;
+} */
+
+.booking-form label {
+  display: block;
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+  color: #b4e434;
+}
+
+.booking-form .react-datepicker-wrapper {
+  display: inline-block;
+  
+}
+.react-datepicker__input-container input{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.booking-form button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #a4c42b;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.booking-form button:hover {
+  background-color: #0056b3;
+}
+
+.total-amount{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

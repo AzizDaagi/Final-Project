@@ -1,0 +1,97 @@
+.home-page {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.location{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  gap: 12px;
+  margin: auto;
+  padding: 15px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 25px;
+  position: relative;
+}
+.location label{
+  color: #fff;
+  font-size: 19px;
+  font-weight: 500;
+}
+.location select{
+  width: 160px;
+  height: 35px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #150812;
+  border-radius: 10px;
+  outline: none;
+}
+.search-bar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 800px;
+  margin: auto; /* Center horizontally */
+  padding: 20px; /* Adjust padding to make it look better */
+  background-color: transparent;
+  backdrop-filter: blur(30px);
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  position: relative; /* Adjust if you need to align other elements */
+}
+
+.input-location,
+.date-picker,
+.search-button {
+  border: none;
+  padding: 15px;
+  margin: 0;
+  outline: none;
+  border-radius: 25px;
+}
+
+.input-location,
+.date-picker {
+  flex: 1;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.1); /* Add background to make text readable */
+}
+
+.input-location::placeholder {
+  color: #fff;
+}
+
+.date-picker::placeholder {
+  color: #fff;
+}
+
+.search-button {
+  background-color: #190b14;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 25px;
+  max-width: 100px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center; /* Ensure text is centered */
+}
+
+.search-button:hover {
+  background-color: #451794;
+}
+
+.date-picker {
+  max-width: 150px;
+  text-align: center;
+}

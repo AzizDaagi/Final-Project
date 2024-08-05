@@ -1,0 +1,51 @@
+/* map.css */
+.map-container {
+  position: relative;
+  height: 500px; /* Adjust as needed */
+  width: 600px; /* Adjust as needed */
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.search-wrapper {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;
+  /* Set a specific width for the search wrapper */
+  width: auto;
+  
+}
+
+.search-control {
+  max-width: 250px;
+}
+.search-control .search-input {
+  background-color: aliceblue;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, .2);
+  border-radius: 10px;
+  font-size: 1rem; 
+  padding: 10px 20px; 
+}
+.search-control .search-results {
+  background-color: aliceblue;
+  color: black;
+  list-style: none;
+}
+.search-control .result-option {
+  padding: 10px;
+  font-size: 15px;
+  border-bottom: 1px solid black;
+}
+.search-control .result-option:hover {
+  background-color: gray;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
